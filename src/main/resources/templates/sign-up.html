@@ -4,12 +4,22 @@
     <head>
         <title>Sign Up</title>
         <link rel="stylesheet" th:href="@{/form-stylesheet.css}">
+
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div class="container">
+            <h2>Javagram</h2>
+        </div> 
+        <form method="post">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Email">
+            <p style="font-weight: bold">Date of Birth</p>
+            <input type="date"> <br><br>
+            <input type="submit" value="Submit">                
+        </form>
+
         
-        <script src="" async defer></script>
     </body>
 </html>
